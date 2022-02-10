@@ -19,7 +19,7 @@ class CreatePostsTable extends Migration
 
             $table->string('title')->unique();
             $table->string('summary')->nullable();
-            $table->string('content')->nullable();
+            $table->string('post_content')->nullable();
             $table->string('expiry')->nullable();
             $table->string('commentable')->nullable();
             $table->string('access')->nullable();

@@ -44,9 +44,9 @@
                     </x-slot>
                     <x-slot name="content">
                         <div>
-                            <x-nav-link :href="route('set_language', ['en'])">{{ __("🇬🇧") }}</x-nav-link>
-                            <x-nav-link :href="route('set_language', ['es'])">{{ __("🇪🇸") }}</x-nav-link>
-                            <x-nav-link :href="route('set_language', ['ca'])">{{ __("🇪🇸🤷") }}</x-nav-link>
+{{--                            <x-nav-link :href="route('set_language', ['en'])">{{ __("🇬🇧") }}</x-nav-link>--}}
+{{--                            <x-nav-link :href="route('set_language', ['es'])">{{ __("🇪🇸") }}</x-nav-link>--}}
+{{--                            <x-nav-link :href="route('set_language', ['ca'])">{{ __("🇪🇸🤷") }}</x-nav-link>--}}
                         </div>
                     </x-slot>
                 </x-dropdown>
@@ -143,12 +143,12 @@
                 {{ __("Language") }}
             </a>
             <div class="pt-2 pb-3 space-y-1">
-                <x-responsive-nav-link :href="route('set_language', ['en'])"
-                                       :active="request()->routeIs('en')">{{ __("🇬🇧") }}</x-responsive-nav-link>
-                <x-responsive-nav-link :href="route('set_language', ['es'])"
-                                       :active="request()->routeIs('es')">{{ __("🇪🇸") }}</x-responsive-nav-link>
-                <x-responsive-nav-link :href="route('set_language', ['ca'])"
-                                       :active="request()->routeIs('*ca*')">{{ __("🇪🇸🤷") }}</x-responsive-nav-link>
+{{--                <x-responsive-nav-link :href="route('set_language', ['en'])"--}}
+{{--                                       :active="request()->routeIs('en')">{{ __("🇬🇧") }}</x-responsive-nav-link>--}}
+{{--                <x-responsive-nav-link :href="route('set_language', ['es'])"--}}
+{{--                                       :active="request()->routeIs('es')">{{ __("🇪🇸") }}</x-responsive-nav-link>--}}
+{{--                <x-responsive-nav-link :href="route('set_language', ['ca'])"--}}
+{{--                                       :active="request()->routeIs('*ca*')">{{ __("🇪🇸🤷") }}</x-responsive-nav-link>--}}
             </div>
         </div>
 

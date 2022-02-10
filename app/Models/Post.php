@@ -13,7 +13,7 @@ class Post extends Model
 
     public $table = 'contacts';
 
-    protected $fillable = ['title', 'summary', 'content', 'expiry', 'commentable', 'access', 'user_id'];
+    protected $fillable = ['title', 'summary', 'post_content', 'expiry', 'commentable', 'access', 'user_id'];
 
     public function user() {
         return $this->belongsTo(User::class);
