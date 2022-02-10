@@ -17,7 +17,7 @@
             @csrf
             <label for="title"> {{ __("Post title") }}:
                 <input class="border-2 border-solid border-gray-100 rounded-full px-2" type="text" name="title"
-                       value="{{old('title')}}" placeholder="Bernat Smith's post"/>
+                       value="{{old('title')}}" placeholder="Bernat Smith's post" required/>
             </label>
             @error('title')
             <br>
