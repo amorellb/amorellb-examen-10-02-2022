@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
-Route::resource('contacts',\App\Http\Controllers\PostController::class)
+Route::resource('posts',\App\Http\Controllers\PostController::class)
     ->middleware('auth');
 
 Route::get('/dashboard', function () {

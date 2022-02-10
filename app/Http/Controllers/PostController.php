@@ -42,7 +42,7 @@ class PostController extends Controller
     {
         $post = new Post();
         $post->title = $request->title;
-        $post->slug = $request->summary;
+        $post->summary = $request->summary;
         $post->post_content = $request->post_content;
         $post->expiry = $request->expiry;
         $post->commentable = $request->commentable;

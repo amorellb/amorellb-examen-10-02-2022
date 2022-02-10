@@ -15,8 +15,8 @@
                     <x-nav-link :href="route('home')" :active="request()->routeIs('home')">
                         {{ __('Home') }}
                     </x-nav-link>
-                    <x-nav-link :href="route('contacts.index')" :active="request()->routeIs('contacts.*')">
-                        {{ __('Contact') }}
+                    <x-nav-link :href="route('posts.index')" :active="request()->routeIs('posts.*')">
+                        {{ __('Posts') }}
                     </x-nav-link>
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
@@ -128,8 +128,8 @@
             <x-responsive-nav-link :href="route('home')" :active="request()->routeIs('home')">
                 {{ __('Home') }}
             </x-responsive-nav-link>
-            <x-responsive-nav-link :href="route('contacts.index')" :active="request()->routeIs('contacts.*')">
-                {{ __('Contact') }}
+            <x-responsive-nav-link :href="route('posts.index')" :active="request()->routeIs('posts.*')">
+                {{ __('Posts') }}
             </x-responsive-nav-link>
             <x-responsive-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                 {{ __('Dashboard') }}

@@ -11,7 +11,7 @@ class Post extends Model
     use HasFactory;
     use SoftDeletes;
 
-    public $table = 'contacts';
+    public $table = 'posts';
 
     protected $fillable = ['title', 'summary', 'post_content', 'expiry', 'commentable', 'access', 'user_id'];
 
